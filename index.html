@@ -5,6 +5,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
 <script src="./p5.play.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD3FZsU9qAz9yRvPx-os87T7bB_v2nyJ3o",
+    authDomain: "multiplayergame-b796f.firebaseapp.com",
+    databaseURL: "https://multiplayergame-b796f-default-rtdb.firebaseio.com",
+    projectId: "multiplayergame-b796f",
+    storageBucket: "multiplayergame-b796f.appspot.com",
+    messagingSenderId: "36502202746",
+    appId: "1:36502202746:web:706235c2af2eb0cfb60ec3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Player.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
